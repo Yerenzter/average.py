@@ -5,7 +5,18 @@ Is a free open-source Python3 program is a tool that can calculate average from 
 
 ### For Termux
 
-'''' $ pkg update && upgrade -y ''''
-'''' $ pkg install git wget python2 python3''''
-'''' $ git clone https://github.com/Yerenzter/average.py ''''
-'''' $ cd average.py && python  average.py ''''
+``` 
+$ pkg update && pkg upgrade -y
+$ pkg install git wget python2 python3
+$ git clone https://github.com/Yerenzter/average.py
+$ cd average.py && python average.py
+```
+
+### For Debian11 (Bullseye)
+
+```
+$ sudo apt update && apt upgrade -y
+$ sudo apt install git wget python2 python3
+$ git clone https://github.com/Yerenzter/average.py
+$ cd average.py && python average.py
+```
